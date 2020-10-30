@@ -4,9 +4,15 @@
       <div class="main-width">
         <h3> {{title}} </h3>
         <ul class="list-link">
-          <li>Lien</li>
-          <li>Lien</li>
-          <li>Lien</li>
+          <li>
+            <router-link :to="{name: 'home'}">Home</router-link>
+          </li>
+          <li>
+            <router-link :to="{name: 'first'}">First</router-link>
+          </li>
+          <li>
+            <router-link :to="{name: 'users'}">Users</router-link>
+          </li>
         </ul>
       </div>
     </div>
@@ -42,8 +48,9 @@ export default {
     list-style: none;
   }
 
-  ul li {
+  ul li a {
     color: #42b883;
+    margin-left: 15px;
   }
 
 </style>

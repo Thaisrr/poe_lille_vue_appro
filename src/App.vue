@@ -1,26 +1,16 @@
 <template>
   <div id="app">
-    <navigation :title="title"></navigation>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Bienvenue dans votre première app Vue.JS !"/>
-    <MyFirstComponent></MyFirstComponent>
-    <Users></Users>
+    <Navigation :title="title"></Navigation>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import MyFirstComponent from "@/components/MyFirstComponent";
 import Navigation from "@/components/Navigation";
-import Users from "@/components/Users";
-
 
 export default {
   name: 'App',
   components: {
-    Users,
-    HelloWorld,
-    MyFirstComponent,
     Navigation,
   },
   data: function () {

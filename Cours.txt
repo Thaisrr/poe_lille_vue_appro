@@ -42,3 +42,11 @@
 -> Importer et afficher ce composant dans app
 
 
+
+-> Ajouter Vue Router
+-> Faire un deuxième composant de création d'employé ( juste 2 ou 3 infos )
+    -> Formulaire ( pas de validation )
+    -> Requête post qui affiche un petit message 'employé.e enregistré !'
+-> Permettre d'accéder à l'une ou l'autre des page avec les routes
+
+
