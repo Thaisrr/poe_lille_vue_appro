@@ -1,0 +1,44 @@
+-> Pour faire une appli Vue il faut :
+    - node et npm d'installer
+    - On installe, si pas déjà fait vue et vue/cli
+    - On créé l'appli avec la commande 'vue create mon_appli'
+    ( dans le dossier dans lequel on veut enregistrer notre application )
+    - Pour lancer l'application, et pourvoir l'afficher, il faut faire :
+        'npm run serve' dans l'appli ( avec un package.json en racine )
+
+-> Un component : clic droit new file -> vue component
+    -> Template -> il faut créer une div id app
+    -> Le nom du composant s'écrit par convention avec une Majuscule, sans l'extention .vue
+    -> data est une fonction qui doit retourner un objet
+
+-> Pour installer une librairie, on utilise npm install nom_librairie
+    -> Axios pour les requêtes http.
+    -> La librairie s'ajoute auto dans package json
+    -> Pour l'utiliser, en général, il faut faire un import de la librairie
+
+-> Pour les requêtes http :
+    -> On installe axios dans le projet : npm install axios
+    -> On importe axios dans le composant où on veut l'utiliser
+    -> Une fois que le composant est monté, on fait notre get sur notre api
+    -> On enregistre les données
+
+-> Lorsqu'on créé un nouveau composant :
+    -> Il faut l'importer dans le composant parent
+    -> On le déclare dans l'objet component ( par son nom)
+    -> On l'utilise dans le template
+
+
+------------------------
+
+-> Créer un nouveau projet
+-> Créer un composant 'header' qui prend en props un titre / title / et qui l'affiche
+-> Importer ce composant et l'afficher dans app
+--> Correction à 13h30
+
+-> Créer un composant 'employee'
+-> Lire la doc pour savoir comment l'utiliser
+-> Faire une requête get pour récupérer tous les employés
+-> Afficher leur nom dans une liste
+-> Importer et afficher ce composant dans app
+
+
